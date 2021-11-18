@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const stripe = require('stripe')('sk_test_...');
+const stripe = require('stripe')('sk_test_51FdSTfCVrGs6pjiVYXxLC1tuqOGvSp5XnMXpM63fQTaZuuMt80b9EgAU4wBC4RhHcccyVIGY7YqIZ0v9odPUXgEb00vPpwLB37');
 
 
 router.get("/", async (req, res, next) => {
